@@ -25,7 +25,14 @@ const icono_agua = "./images/water_type.png";
 const estiloClase_agua = "agua"
 
 // Alumno: Genere un objeto llamado "tipoAgua" con todos los datos del pokemon tipo agua
+const tipoAgua={
+    titulo :titulo_agua,
+    descripcion: descripcion_agua,
+    icono: icono_agua,
+    estiloClase: estiloClase_agua,
+}
 
+console.log(tipoAgua)
 
 // Tipo planta
 const titulo_planta = "Tipo Planta"
@@ -35,6 +42,14 @@ const estiloClase_planta = "planta"
 
 // Alumno: Genere un objeto llamado "tipoPlanta" con todos los datos del pokemon tipo planta
 
+const tipoPlanta={
+    titulo: titulo_planta,
+    descripcion:descripcion_planta,
+    icono:icono_planta,
+    estiloClase:estiloClase_planta,
+}
+console.log(tipoPlanta)
+
 // Tipo Electricidad
 const titulo_electrico = "Tipo Electricidad"
 const descripcion_electrico = "Los Pokémon de tipo eléctrico tienen hábitats variados, desde bosques y praderas, hasta ciudades y centrales eléctricas. Los Pokémon de tipo dragón, eléctrico y planta son resistentes al tipo eléctrico, y aún más los de tipo tierra, quienes son inmunes a los ataques eléctricos. Por consiguiente, los Pokémon eléctricos deben de ser muy precavidos con los ataques de tipo tierra, el cual representa su única debilidad."
@@ -43,6 +58,14 @@ const estiloClase_electrico = "electricidad"
 
 // Alumno: Genere un objeto llamado "tipoElectricidad" con todos los datos del pokemon tipo electricidad
 
+const tipoElectricidad={
+    titulo: titulo_electrico,
+    descripcion: descripcion_electrico,
+    icono: icono_electrico,
+    estilosClase: estiloClase_electrico,
+}
+console.log(tipoElectricidad)
+
 // Tipo normal
 const titulo_normal = "Tipo Normal"
 const descripcion_normal = "Los Pokémon de tipo normal abarcan la mayor cantidad y variedad de movimientos que el resto de tipos. Gran parte de estos son movimientos que no realizan daño o no lo hacen directamente, sino que afectan a las características o estados del Pokémon. Los tipos normal son los más diversos entre los Pokémon, con características variadas, desarrollos y requisitos para las evoluciones diferentes de cada uno, al igual que diferir en las zonas donde se pueden capturar, desde bosques, cuevas, montañas, ciudades, etc."
@@ -50,6 +73,13 @@ const icono_normal = "./images/normal_type.png";
 const estiloClase_normal = "normal"
 
 // Alumno: Genere un objeto llamado "tipoNormal" con todos los datos del pokemon tipo normal
+const tipoNormal={
+    titulo: titulo_normal,
+    descripcion: descripcion_normal,
+    icono:icono_normal,
+    estiloClase: estiloClase_normal,
+}
+console.log(tipoNormal)
 
 // Tipo fuego
 const titulo_fuego = "Tipo Fuego"
@@ -59,5 +89,12 @@ const estiloClase_fuego = "normal"
 
 
 // Alumno: Genere un objeto llamado "tipoFuego" con todos los datos del pokemon tipo fuego
+ 
+const tipoFuego={
+    titulo: titulo_fuego,
+    descripcion: descripcion_fuego,
+    icono:icono_fuego,
+    estiloClase:estiloClase_fuego,
 
-
+}
+console.log(tipoFuego)
